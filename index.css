@@ -1,0 +1,188 @@
+
+            body {
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, 'Calibri';
+                text-align: center;
+                margin: 0;
+                padding: 0;
+            }
+            h1 {
+                font-size: 50px;
+                margin: 20px 0;
+            }
+            h2 {
+                font-size: 30px;
+                margin: 20px auto;
+                text-align: center;
+            }
+            .borda1 {
+                border-top: 5px solid #ff0000;
+                margin: 10px auto;
+                width: 40%;
+            }
+            .contaigner_botao, .contaigner_botao2, .contaigner_botao3, .contaigner_botao4 {
+                color: white;
+                border-radius: 30px;
+                padding: 35px;
+                display: flex;
+                text-decoration: none;
+                align-items: center;
+                justify-content: center;
+                width: 350px;
+                margin: 20px auto;
+                font-size: 40px;
+                
+            }
+            .contaigner_botao {
+                background-color: #25d366; /* WhatsApp */
+            }
+
+            .contaigner_botao2 {
+                background-color: #833AB4; /* Instagram */
+            }
+
+            .contaigner_botao3 {
+                background-color: #0088cc; /* Telegram */
+            }
+
+            .contaigner_botao4 {
+                background-color: #DB4437; /* Email */
+            }
+
+            footer {
+                margin-top: 150px;
+                font-size: 15px;
+}
+            footer {
+                margin-top: 100px;
+                font-size: 15px;
+}
+            img { 
+                border-radius: 150px;
+}
+             p {
+                max-width: 800px;
+                margin: 20px auto;
+                text-align: justify;
+                line-height: 1.6;
+
+}
+            .danilo-selfie {
+                width: 300px;
+                height: 300px;
+                text-align: center;
+                display: inline-block;
+                position: relative;
+}
+            .rubrica-dsn {
+                width: 300px;
+                height: 300px;
+                text-align: center;
+                display: inline-block;
+                position: relative;
+            }
+            .div-1 {
+                background-color: #e6e6e6
+}
+
+            .div-2 {
+                background-color: #002fa7
+}
+            .container_caixa {
+                margin: 2em 2em;
+            }
+
+            .container {
+                width: 90%; /* Ocupa 90% da tela (em qualquer dispositivo) */
+                max-width: 1200px; /* Mas não ultrapassa 1200px (em desktops) */
+                margin: 0 auto; /* Centraliza */
+            }
+            
+            h1 {
+                font-size: 2rem; /* Tamanho relativo ao root (html) */
+                padding: 1em; /* Espaçamento proporcional */
+            }
+
+            /* Celulares (até 600px) */
+@media (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+    .menu {
+        flex-direction: column; /* Empilha itens */
+    }
+}
+
+/* Tablets (601px a 1024px) */
+@media (min-width: 601px) and (max-width: 1024px) {
+    .card {
+        width: 48%; /* 2 colunas */
+    }
+}
+
+/* Desktop (acima de 1024px) */
+@media (min-width: 1025px) {
+    .card {
+        width: 23%; /* 4 colunas */
+    }
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap; /* Quebra linha se não couber */
+    gap: 16px; /* Espaço entre itens */
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    /* Cria colunas que se ajustam automaticamente */
+}
+
+img {
+    max-width: 100%;
+    height: auto; /* Mantém proporção */
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Celular: menu vira ícone */
+@media (max-width: 600px) {
+    .menu {
+        flex-direction: column;
+        display: none; /* Esconde inicialmente */
+    }
+    .menu-icon {
+        display: block; /* Mostra ícone de hambúrguer */
+    }
+}
+    .img {
+        display: block;
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
+    .destaque{
+        color: white;
+    }
+    .botao{
+        border: solid 1px blue;
+        border-radius: 20px;
+        color: blue;
+        background-color: blue;
+        transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+        width: 150px;
+        height: 70px;
+        font-size: medium;
+        color: white;
+
+        
+    }
+    .botao:hover{
+        background-color: blue;
+        color: white;
+        transform: scale(1.2)
+    }
+    
+      
