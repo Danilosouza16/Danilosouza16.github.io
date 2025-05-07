@@ -1,20 +1,18 @@
-/* RESET */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* BODY GERAL */
 body {
     font-family: Arial, sans-serif;
     font-size: 16px;
     line-height: 1.6;
     background-color: #f5f5f5;
     color: #333;
+    text-align: center;
 }
 
-/* CONTAINER */
 .container {
     width: 100%;
     max-width: 1200px;
@@ -23,7 +21,6 @@ body {
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
-/* CABEÇALHO */
 header {
     background-color: #0fb803;
     color: white;
@@ -61,14 +58,12 @@ nav a:hover {
     color: black;
 }
 
-/* SEÇÕES */
 .section {
     padding: 20px;
     border-bottom: 2px solid #eee;
     text-align: center;
 }
 
-/* CAIXAS DE DADOS */
 .data-box {
     background-color: #f9f9f9;
     border-left: 4px solid #0fb803;
@@ -76,7 +71,6 @@ nav a:hover {
     margin: 20px 0;
 }
 
-/* COMPARAÇÃO DE IMAGENS */
 .comparison {
     display: flex;
     flex-wrap: wrap;
@@ -96,7 +90,6 @@ nav a:hover {
     border-radius: 5px;
 }
 
-/* PROMOÇÃO APP */
 .app-promo {
     background-color: #f0f8ff;
     padding: 20px;
@@ -118,11 +111,10 @@ nav a:hover {
 .install-instructions ol {
     list-style: decimal;
     padding-left: 20px;
-    text-align: left;
+    text-align: center;
     margin-top: 10px;
 }
 
-/* APP DETALHES */
 .app-details {
     display: flex;
     flex-wrap: wrap;
@@ -142,7 +134,6 @@ nav a:hover {
     border-radius: 5px;
 }
 
-/* FORMULÁRIO */
 form {
     background-color: #f9f9f9;
     padding: 20px;
@@ -157,7 +148,6 @@ input, textarea {
     border-radius: 5px;
 }
 
-/* BOTÃO */
 button {
     background-color: #8B0000;
     color: white;
@@ -167,7 +157,6 @@ button {
     cursor: pointer;
 }
 
-/* RODAPÉ */
 footer {
     text-align: center;
     background-color: #333;
@@ -176,9 +165,6 @@ footer {
     margin-top: 30px;
 }
 
-/* MEDIA QUERIES */
-
-/* Celulares pequenos (até 480px) */
 @media screen and (max-width: 480px) {
     header h1 {
         font-size: 30px;
@@ -206,7 +192,6 @@ footer {
     }
 }
 
-/* Celulares médios (481px a 768px) */
 @media screen and (max-width: 768px) {
     header h1 {
         font-size: 32px;
@@ -221,7 +206,6 @@ footer {
     }
 }
 
-/* Tablets (769px a 1024px) */
 @media screen and (max-width: 1024px) {
     nav a {
         padding: 10px 12px;
@@ -237,10 +221,9 @@ footer {
     }
 }
 
-/* INTRODUÇÃO TEXTO PADRÃO */
 .intro-text {
-    background-color: #e8f5e9; /* verde-claro suave */
-    color: #1b5e20; /* verde-escuro para contraste */
+    background-color: #e8f5e9; 
+    color: #1b5e20; 
     border-left: 5px solid #0fb803;
     margin-top: 30px;
     padding: 20px;
@@ -258,7 +241,6 @@ footer {
     margin-bottom: 10px;
 }
 
-/* Responsivo */
 @media screen and (max-width: 768px) {
     .intro-text h2 {
         font-size: 22px;
@@ -267,5 +249,22 @@ footer {
     .intro-text p {
         font-size: 16px;
     }
+}
+
+.fonte {
+    font-size: 1em;
+    color: #666;
+    margin-top: 10px;
+    font-style: italic;
+    text-align: center;
+}
+
+.fonte a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.fonte a:hover {
+    text-decoration: underline;
 }
 
